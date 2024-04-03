@@ -27,6 +27,7 @@
     padding-right: 10px;
     
 }
+/* golf course packages */
 #golf-course-packages{
     display: flex;
     justify-content: space-around;
@@ -34,7 +35,36 @@
 #golf-course-packages div{
     height: 300px;
     width: 200px;
-    background-color: #2b352d;
+    background-color: #082c38;
     border-radius: 20px;
     text-align: center;
+}
+#golf-course-packages p{
+    color: #fcd8b4;
+}
+#golf-course-packages  div p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #c19976;
+}
+#golf-course-packages div p span{
+    font-size: 30px;
+}
+#golf-course-packages div ul{
+    padding-left: 20px;
+}
+#golf-course-packages div ul li{
+    list-style-type: disc;
+    text-align: left;
+    line-height: 30px;
+    color: #fcd8b4;
+}
+#golf-course-content{
+    padding-top: 40px;
+}
+#golf-course-content p{
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
 }

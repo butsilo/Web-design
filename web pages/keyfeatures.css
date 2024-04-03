@@ -4,6 +4,8 @@
     padding-left: 20px;
     padding-right: 20px;
     border: 0;
+    background: repeating-linear-gradient(#0c2f3b,#c5cbcf,#9aabb7,#051c24);
+    height: 1500px;
 }
 #key-items{
     float: left;
@@ -19,8 +21,10 @@
 }
 #key-items a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color:#fcd8b4;
+    
 }
+
 .item-type{
     height: 50px;
 }
@@ -36,6 +40,8 @@
     float: right;
     width: 1020px;
     border-radius: 0 30px 0 30px;
-    filter: drop-shadow(2px 2px 2px #2b352d);
+    display: flex;
+    overflow-x: hidden;
+    background: linear-gradient(#f3eeea, #ebe3d5, #b0a695, #776b5d);
 }
 
