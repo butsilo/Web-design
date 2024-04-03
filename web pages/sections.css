@@ -1,0 +1,40 @@
+/* golf course section */
+#golf-course-header{
+    height: 600px;
+    width: inherit;
+}
+#golf-course-header video{
+    display: block;
+}
+#golf-course-menu{
+    height: 70px;
+    background-color: #082c38;
+}
+#golf-course-menu img{
+    float: left;
+    height: inherit;
+}
+#golf-course-menu ul{
+    float: right;
+}
+#golf-course-menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 17px;
+    width: 70px;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+}
+#golf-course-packages{
+    display: flex;
+    justify-content: space-around;
+}
+#golf-course-packages div{
+    height: 300px;
+    width: 200px;
+    background-color: #2b352d;
+    border-radius: 20px;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+
+#main-content{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+}
+#key-items{
+    float: left;
+    background-color: #082c38;
+    border-radius: 30px 0 30px 0;
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    filter: drop-shadow(2px 2px 2px #2b352d);
+   
+}
+#key-items a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.item-type{
+    height: 50px;
+}
+.item-type img{
+    height: 30px;
+    width: 30px;
+}
+.item-type p{
+    display: inline;
+    font-size: 16px;
+}
+#key-content{
+    float: right;
+    width: 1020px;
+    border-radius: 0 30px 0 30px;
+    filter: drop-shadow(2px 2px 2px #2b352d);
+}
+
