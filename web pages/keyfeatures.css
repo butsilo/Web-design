@@ -39,9 +39,8 @@
 #key-content{
     float: right;
     width: 1020px;
-    border-radius: 0 30px 0 30px;
     display: flex;
-    overflow-x: hidden;
+    overflow-x: scroll;
     background: linear-gradient(#f3eeea, #ebe3d5, #b0a695, #776b5d);
 }
 
