@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #heading {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header .highlight,
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    header {
+        min-height: 50px;
+    }
+
+    header li {
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 960px) {
+    header {
+        min-height: 120px;
+    }
+
+    header #heading {
+        display: none;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header li {
+        float: none;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header li:first-child {
+        padding-top: 20px;
+    }
+
+    header li:last-child {
+        padding-bottom: 20px;
+    }
+
+    header a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 640px) {
+    header {
+        min-height: 100px;
+    }
+
+    header li {
+        padding: 5px;
+    }
+
+    header a {
+        font-size: 14px;
+    }
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.card {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-content h3 {
+    margin-bottom: 0.5rem;
+}
+
+.card-content p {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #e8491d;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #f47742;
+}
+
+.features {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+}
+
+.features .section {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.features .title {
+    margin-bottom: 2rem;
+}
+
+.features .services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 1rem;
+}
+
+.features .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.features .card .icon {
+    background-color: #e8491d;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.features .card h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.features .card p {
+    margin-bottom: 1rem;
+}
+
+.features .button {
+    display: inline-block;
+    background-color: #e8491d;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.features .button:hover {
+    background-color: #f47742;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+
+footer #Welcome {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer #Welcome p3 {
+    font-size: 1.2rem;
+}
+
+footer #social {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer #social a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 10px;
+}
+
+footer #copyright {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+@media (max-width: 960px) {
+    .features .services {
+        flex-direction: column;
+    }
+
+    .features.card {
+        width: 100%;
+    }
+}
+
+#socials{
+   
+    
+}
+
+.fa-whatsapp{
+    color: green;
+}
